@@ -46,6 +46,11 @@ public class BlankFragmentEntreno4 extends Fragment {
         return fragment;
     }
 
+    public static BlankFragmentEntreno4 newInstance() {
+        return new BlankFragmentEntreno4();
+    }
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
